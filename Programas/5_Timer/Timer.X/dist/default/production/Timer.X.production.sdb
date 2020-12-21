@@ -1,0 +1,269 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"36 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Programas\5_Timer\Timer.X\main.c
+[e E2527 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+]
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+[v i2___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"53 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Programas\5_Timer\Timer.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"87
+[v _criar_tarefa criar_tarefa `(v  1 e 1 0 ]
+"96
+[v _escalonador escalonador `(i  1 e 2 0 ]
+[v i2_escalonador escalonador `(i  1 e 2 0 ]
+"103
+[v _despachante despachante `(v  1 e 1 0 ]
+[v i2_despachante despachante `(v  1 e 1 0 ]
+"114
+[v _task_1 task_1 `(v  1 e 1 0 ]
+[v i2_task_1 task_1 `(v  1 e 1 0 ]
+"119
+[v _task_2 task_2 `(v  1 e 1 0 ]
+[v i2_task_2 task_2 `(v  1 e 1 0 ]
+"124
+[v _task_3 task_3 `(v  1 e 1 0 ]
+[v i2_task_3 task_3 `(v  1 e 1 0 ]
+"129
+[v _trataTimer0 trataTimer0 `IIH(v  1 e 1 0 ]
+[s S43 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"669 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[s S196 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S205 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S210 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S213 . 1 `S43 1 . 1 0 `S196 1 . 1 0 `S205 1 . 1 0 `S210 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES213  1 e 1 @3971 ]
+[s S34 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2175
+[u S52 . 1 `S34 1 . 1 0 `S43 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES52  1 e 1 @3989 ]
+[s S74 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6191
+[s S81 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S88 . 1 `S74 1 . 1 0 `S81 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES88  1 e 1 @4053 ]
+"6258
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+[s S106 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6724
+[s S115 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S124 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S128 . 1 `S106 1 . 1 0 `S115 1 . 1 0 `S124 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES128  1 e 1 @4082 ]
+[s S29 TCB 7 `ui 1 task_ID 2 0 `ui 1 task_prior 2 2 `*.37(v 1 task_func 2 4 `E2527 1 task_state 1 6 ]
+"36 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Programas\5_Timer\Timer.X\main.c
+[v _FILA_APTOS FILA_APTOS `[4]S29  1 e 28 0 ]
+"37
+[v _controle_aptos controle_aptos `i  1 e 2 0 ]
+"38
+[v _tarefa_da_vez tarefa_da_vez `i  1 e 2 0 ]
+"51
+[v _contador contador `i  1 e 2 0 ]
+"53
+[v _main main `(v  1 e 1 0 ]
+{
+"84
+} 0
+"103
+[v _despachante despachante `(v  1 e 1 0 ]
+{
+"106
+[v despachante@vez vez `i  1 a 2 24 ]
+"111
+} 0
+"119
+[v _task_2 task_2 `(v  1 e 1 0 ]
+{
+"122
+} 0
+"114
+[v _task_1 task_1 `(v  1 e 1 0 ]
+{
+"117
+} 0
+"124
+[v _task_3 task_3 `(v  1 e 1 0 ]
+{
+"127
+} 0
+"96
+[v _escalonador escalonador `(i  1 e 2 0 ]
+{
+"101
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 21 ]
+[v ___awmod@counter counter `uc  1 a 1 20 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 16 ]
+[v ___awmod@divisor divisor `i  1 p 2 18 ]
+"34
+} 0
+"87 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Programas\5_Timer\Timer.X\main.c
+[v _criar_tarefa criar_tarefa `(v  1 e 1 0 ]
+{
+[v criar_tarefa@prioridade prioridade `ui  1 p 2 22 ]
+[v criar_tarefa@func func `*.37(v  1 p 2 24 ]
+"94
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 20 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 16 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 18 ]
+"53
+} 0
+"129 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Programas\5_Timer\Timer.X\main.c
+[v _trataTimer0 trataTimer0 `IIH(v  1 e 1 0 ]
+{
+"137
+} 0
+"103
+[v i2_despachante despachante `(v  1 e 1 0 ]
+{
+"106
+[v i2despachante@vez vez `i  1 a 2 8 ]
+"111
+} 0
+"119
+[v i2_task_2 task_2 `(v  1 e 1 0 ]
+{
+"122
+} 0
+"114
+[v i2_task_1 task_1 `(v  1 e 1 0 ]
+{
+"117
+} 0
+"124
+[v i2_task_3 task_3 `(v  1 e 1 0 ]
+{
+"127
+} 0
+"96
+[v i2_escalonador escalonador `(i  1 e 2 0 ]
+{
+"101
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+[v i2___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v i2___awmod@sign sign `uc  1 a 1 5 ]
+[v i2___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v i2___awmod@dividend dividend `i  1 p 2 0 ]
+[v i2___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i2___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i2___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i2___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
