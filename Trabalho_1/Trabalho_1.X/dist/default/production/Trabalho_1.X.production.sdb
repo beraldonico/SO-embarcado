@@ -1,0 +1,550 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"14 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\kernel.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"10 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\main.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"17 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\scheduler.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"22 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\timer.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"24 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\semaforo.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"23 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\kernel.c
+[v _task_create task_create `(v  1 e 1 0 ]
+"37
+[v _os_start os_start `(v  1 e 1 0 ]
+"45
+[v _os_config os_config `(v  1 e 1 0 ]
+"58
+[v _task_idle task_idle `(v  1 e 1 0 ]
+"12 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"141 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\mm.c
+[v _SRAMalloc SRAMalloc `(*.39uc  1 e 2 0 ]
+"263
+[v _SRAMInitHeap SRAMInitHeap `(v  1 e 1 0 ]
+"309
+[v __SRAMmerge _SRAMmerge `(uc  1 e 1 0 ]
+"5 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\pipe.c
+[v _pipe_create pipe_create `(v  1 e 1 0 ]
+"13
+[v _pipe_read pipe_read `(uc  1 e 1 0 ]
+"23
+[v _pipe_write pipe_write `(v  1 e 1 0 ]
+"8 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\scheduler.c
+[v _scheduler scheduler `(ui  1 e 2 0 ]
+[v i2_scheduler scheduler `(ui  1 e 2 0 ]
+"16
+[v _rr_scheduler rr_scheduler `(ui  1 e 2 0 ]
+[v i2_rr_scheduler rr_scheduler `(ui  1 e 2 0 ]
+"9 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\semaforo.c
+[v _sem_init sem_init `(v  1 e 1 0 ]
+"19
+[v _sem_wait sem_wait `(v  1 e 1 0 ]
+"35
+[v _sem_post sem_post `(v  1 e 1 0 ]
+"25 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\tasks.c
+[v _config_tasks config_tasks `(v  1 e 1 0 ]
+"45
+[v _task_1 task_1 `(v  1 e 1 0 ]
+"56
+[v _task_2 task_2 `(v  1 e 1 0 ]
+"69
+[v _task_3 task_3 `(v  1 e 1 0 ]
+"95
+[v _task_4 task_4 `(v  1 e 1 0 ]
+"109
+[v _task_5 task_5 `(v  1 e 1 0 ]
+"131
+[v _task_6 task_6 `(v  1 e 1 0 ]
+"9 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\timer.c
+[v _setup_timer_0 setup_timer_0 `(v  1 e 1 0 ]
+"19
+[v _controle_delay controle_delay `(v  1 e 1 0 ]
+"32
+[v _IRQ_Timer0 IRQ_Timer0 `IIH(v  1 e 1 0 ]
+"9 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X/dispatcher.h
+[v _index index `ui  1 e 2 0 ]
+[s S402 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"315 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[s S523 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S532 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S541 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S543 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S546 . 1 `S402 1 . 1 0 `S523 1 . 1 0 `S532 1 . 1 0 `S541 1 . 1 0 `S543 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES546  1 e 1 @3969 ]
+[s S362 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"669
+[s S454 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S463 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S468 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S471 . 1 `S362 1 . 1 0 `S454 1 . 1 0 `S463 1 . 1 0 `S468 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES471  1 e 1 @3971 ]
+[s S393 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1731
+[u S411 . 1 `S393 1 . 1 0 `S402 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES411  1 e 1 @3987 ]
+[s S353 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2175
+[u S371 . 1 `S353 1 . 1 0 `S362 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES371  1 e 1 @3989 ]
+[s S120 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6191
+[s S127 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S134 . 1 `S120 1 . 1 0 `S127 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES134  1 e 1 @4053 ]
+"6258
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6272
+[v _STATUS STATUS `VEuc  1 e 1 @4056 ]
+"6399
+[v _BSR BSR `VEuc  1 e 1 @4064 ]
+"6462
+[v _WREG WREG `VEuc  1 e 1 @4072 ]
+[s S24 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6724
+[s S33 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S42 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S46 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S42 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES46  1 e 1 @4082 ]
+"6904
+[v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
+"6977
+[v _TOS TOS `VEum  1 e 3 @4093 ]
+"6985
+[v _TOSL TOSL `VEuc  1 e 1 @4093 ]
+"6992
+[v _TOSH TOSH `VEuc  1 e 1 @4094 ]
+"6999
+[v _TOSU TOSU `VEuc  1 e 1 @4095 ]
+[s S80 data_stack 3 `uc 1 TOSU_reg 1 0 `uc 1 TOSL_reg 1 1 `uc 1 TOSH_reg 1 2 ]
+"10 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\main.c
+[s S84 task_stack 62 `[20]S80 1 stack 60 0 `ui 1 size 2 60 ]
+[s S87 tcb 74 `ui 1 task_id 2 0 `E2560 1 task_state 1 2 `ui 1 task_prior 2 3 `*.37(v 1 task_func 2 5 `S84 1 task_stack 62 7 `uc 1 bsr_reg 1 69 `uc 1 w_reg 1 70 `uc 1 status_reg 1 71 `ui 1 delay 2 72 ]
+[s S97 fila_aptos 522 `[7]S87 1 ready_queue 518 0 `ui 1 ready_queue_size 2 518 `ui 1 task_running 2 520 ]
+[v _f_aptos f_aptos `S97  1 e 522 0 ]
+"113 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\mm.c
+[v __uDynamicHeap _uDynamicHeap `[512]uc  1 e 512 0 ]
+[s S340 fila_sem 14 `[5]ui 1 tasks 10 0 `ui 1 queue 2 10 `ui 1 next_to_free 2 12 ]
+"7 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\tasks.c
+[s S344 semaforo 18 `i 1 contadorSem 2 0 `i 1 total_tasks 2 2 `S340 1 fila 14 4 ]
+[v _sem_igni sem_igni `S344  1 e 18 0 ]
+"8
+[v _sem_motor sem_motor `S344  1 e 18 0 ]
+[s S348 pipe 8 `*.39uc 1 buffer 2 0 `ui 1 buffer_size 2 2 `ui 1 pos_read 2 4 `ui 1 pos_write 2 6 ]
+"9
+[v _pipe_igni pipe_igni `S348  1 e 8 0 ]
+"10
+[v _pipe_error pipe_error `S348  1 e 8 0 ]
+"11
+[v _pipe_motor_error pipe_motor_error `S348  1 e 8 0 ]
+"6 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\timer.c
+[v _quantum quantum `i  1 e 2 0 ]
+"12 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"34
+} 0
+"37 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\kernel.c
+[v _os_start os_start `(v  1 e 1 0 ]
+{
+"42
+} 0
+"45
+[v _os_config os_config `(v  1 e 1 0 ]
+{
+"55
+} 0
+"23
+[v _task_create task_create `(v  1 e 1 0 ]
+{
+[s S80 data_stack 3 `uc 1 TOSU_reg 1 0 `uc 1 TOSL_reg 1 1 `uc 1 TOSH_reg 1 2 ]
+"24
+[s S84 task_stack 62 `[20]S80 1 stack 60 0 `ui 1 size 2 60 ]
+[s S87 tcb 74 `ui 1 task_id 2 0 `E2560 1 task_state 1 2 `ui 1 task_prior 2 3 `*.37(v 1 task_func 2 5 `S84 1 task_stack 62 7 `uc 1 bsr_reg 1 69 `uc 1 w_reg 1 70 `uc 1 status_reg 1 71 `ui 1 delay 2 72 ]
+[v task_create@new_task new_task `S87  1 a 74 47 ]
+"23
+[v task_create@prior prior `ui  1 p 2 41 ]
+[v task_create@func func `*.37(v  1 p 2 43 ]
+"34
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 39 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 35 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 37 ]
+"53
+} 0
+"9 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\timer.c
+[v _setup_timer_0 setup_timer_0 `(v  1 e 1 0 ]
+{
+"16
+} 0
+"25 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\tasks.c
+[v _config_tasks config_tasks `(v  1 e 1 0 ]
+{
+"42
+} 0
+"9 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\semaforo.c
+[v _sem_init sem_init `(v  1 e 1 0 ]
+{
+[s S340 fila_sem 14 `[5]ui 1 tasks 10 0 `ui 1 queue 2 10 `ui 1 next_to_free 2 12 ]
+[s S344 semaforo 18 `i 1 contadorSem 2 0 `i 1 total_tasks 2 2 `S340 1 fila 14 4 ]
+[v sem_init@sem sem `*.39S344  1 p 2 35 ]
+[v sem_init@valor valor `i  1 p 2 37 ]
+"16
+} 0
+"5 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\pipe.c
+[v _pipe_create pipe_create `(v  1 e 1 0 ]
+{
+[s S348 pipe 8 `*.39uc 1 buffer 2 0 `ui 1 buffer_size 2 2 `ui 1 pos_read 2 4 `ui 1 pos_write 2 6 ]
+[v pipe_create@p p `*.39S348  1 p 2 54 ]
+[v pipe_create@size size `ui  1 p 2 56 ]
+"10
+} 0
+"141 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\mm.c
+[v _SRAMalloc SRAMalloc `(*.39uc  1 e 2 0 ]
+{
+[v SRAMalloc@nBytes nBytes `uc  1 a 1 wreg ]
+[s S758 _BITS 1 `uc 1 count 1 0 :7:0 
+`uc 1 alloc 1 0 :1:7 
+]
+"143
+[u S761 _SALLOC 1 `uc 1 byte 1 0 `S758 1 bits 1 0 ]
+[v SRAMalloc@pHeap pHeap `*.39S761  1 a 2 52 ]
+"144
+[v SRAMalloc@temp temp `*.39S761  1 a 2 47 ]
+"145
+[v SRAMalloc@segHeader segHeader `S761  1 a 1 50 ]
+"146
+[v SRAMalloc@segLen segLen `uc  1 a 1 49 ]
+"141
+[v SRAMalloc@nBytes nBytes `uc  1 a 1 wreg ]
+"149
+[v SRAMalloc@nBytes nBytes `uc  1 a 1 51 ]
+"213
+} 0
+"309
+[v __SRAMmerge _SRAMmerge `(uc  1 e 1 0 ]
+{
+[s S758 _BITS 1 `uc 1 count 1 0 :7:0 
+`uc 1 alloc 1 0 :1:7 
+]
+"311
+[u S761 _SALLOC 1 `uc 1 byte 1 0 `S758 1 bits 1 0 ]
+[v __SRAMmerge@pSegB pSegB `*.39S761  1 a 2 39 ]
+"312
+[v __SRAMmerge@uSegB uSegB `S761  1 a 1 42 ]
+[v __SRAMmerge@uSegA uSegA `S761  1 a 1 41 ]
+[v __SRAMmerge@uSum uSum `S761  1 a 1 38 ]
+"309
+[v __SRAMmerge@pSegA pSegA `*.39S761  1 p 2 35 ]
+"353
+} 0
+"263
+[v _SRAMInitHeap SRAMInitHeap `(v  1 e 1 0 ]
+{
+"266
+[v SRAMInitHeap@count count `ui  1 a 2 37 ]
+"265
+[v SRAMInitHeap@pHeap pHeap `*.39uc  1 a 2 35 ]
+"286
+} 0
+"58 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\kernel.c
+[v _task_idle task_idle `(v  1 e 1 0 ]
+{
+"62
+} 0
+"45 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\tasks.c
+[v _task_1 task_1 `(v  1 e 1 0 ]
+{
+"53
+} 0
+"19 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\semaforo.c
+[v _sem_wait sem_wait `(v  1 e 1 0 ]
+{
+[s S340 fila_sem 14 `[5]ui 1 tasks 10 0 `ui 1 queue 2 10 `ui 1 next_to_free 2 12 ]
+[s S344 semaforo 18 `i 1 contadorSem 2 0 `i 1 total_tasks 2 2 `S340 1 fila 14 4 ]
+[v sem_wait@sem sem `*.39S344  1 p 2 29 ]
+"32
+} 0
+"8 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\scheduler.c
+[v _scheduler scheduler `(ui  1 e 2 0 ]
+{
+"14
+} 0
+"16
+[v _rr_scheduler rr_scheduler `(ui  1 e 2 0 ]
+{
+"17
+[v rr_scheduler@next_task next_task `ui  1 a 2 25 ]
+"26
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i1___wmul@product product `ui  1 a 2 27 ]
+"15
+[v i1___wmul@multiplier multiplier `ui  1 p 2 23 ]
+[v i1___wmul@multiplicand multiplicand `ui  1 p 2 25 ]
+"53
+} 0
+"23 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\pipe.c
+[v _pipe_write pipe_write `(v  1 e 1 0 ]
+{
+[s S348 pipe 8 `*.39uc 1 buffer 2 0 `ui 1 buffer_size 2 2 `ui 1 pos_read 2 4 `ui 1 pos_write 2 6 ]
+[v pipe_write@p p `*.39S348  1 p 2 28 ]
+[v pipe_write@data data `uc  1 p 1 30 ]
+"28
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 27 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 23 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 25 ]
+"25
+} 0
+"56 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\tasks.c
+[v _task_2 task_2 `(v  1 e 1 0 ]
+{
+"66
+} 0
+"35 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\semaforo.c
+[v _sem_post sem_post `(v  1 e 1 0 ]
+{
+[s S340 fila_sem 14 `[5]ui 1 tasks 10 0 `ui 1 queue 2 10 `ui 1 next_to_free 2 12 ]
+[s S344 semaforo 18 `i 1 contadorSem 2 0 `i 1 total_tasks 2 2 `S340 1 fila 14 4 ]
+[v sem_post@sem sem `*.39S344  1 p 2 28 ]
+"44
+} 0
+"69 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\tasks.c
+[v _task_3 task_3 `(v  1 e 1 0 ]
+{
+"92
+} 0
+"13 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\pipe.c
+[v _pipe_read pipe_read `(uc  1 e 1 0 ]
+{
+"15
+[v pipe_read@data data `uc  1 a 1 27 ]
+[s S348 pipe 8 `*.39uc 1 buffer 2 0 `ui 1 buffer_size 2 2 `ui 1 pos_read 2 4 `ui 1 pos_write 2 6 ]
+"13
+[v pipe_read@p p `*.39S348  1 p 2 21 ]
+"19
+} 0
+"95 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\tasks.c
+[v _task_4 task_4 `(v  1 e 1 0 ]
+{
+"106
+} 0
+"109
+[v _task_5 task_5 `(v  1 e 1 0 ]
+{
+"128
+} 0
+"131
+[v _task_6 task_6 `(v  1 e 1 0 ]
+{
+"140
+} 0
+"32 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\timer.c
+[v _IRQ_Timer0 IRQ_Timer0 `IIH(v  1 e 1 0 ]
+{
+"53
+} 0
+"8 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\scheduler.c
+[v i2_scheduler scheduler `(ui  1 e 2 0 ]
+{
+"14
+} 0
+"16
+[v i2_rr_scheduler rr_scheduler `(ui  1 e 2 0 ]
+{
+"17
+[v i2rr_scheduler@next_task next_task `ui  1 a 2 10 ]
+"26
+} 0
+"19 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Trabalho_1\Trabalho_1.X\timer.c
+[v _controle_delay controle_delay `(v  1 e 1 0 ]
+{
+"20
+[v controle_delay@i i `i  1 a 2 8 ]
+"29
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i2___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i2___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i2___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
