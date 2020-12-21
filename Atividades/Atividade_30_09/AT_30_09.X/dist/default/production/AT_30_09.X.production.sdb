@@ -1,0 +1,364 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"15 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\main.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"15 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\kernel.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"24 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\scheduler.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"35 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\semaforo.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"32 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\timer.c
+[e E2560 . `uc
+READY 0
+RUNNING 1
+WAITING_SEM 2
+WAITING_DELAY 3
+FINISHED 4
+]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+[v i2___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"18 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\kernel.c
+[v _task_delay task_delay `(v  1 e 1 0 ]
+"34
+[v _task_create task_create `(v  1 e 1 0 ]
+"49
+[v _os_start os_start `(v  1 e 1 0 ]
+"60
+[v _os_config os_config `(v  1 e 1 0 ]
+"79
+[v _task_idle task_idle `(v  1 e 1 0 ]
+"87
+[v _who who `(ui  1 e 2 0 ]
+"17 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"12 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\scheduler.c
+[v _scheduler scheduler `(ui  1 e 2 0 ]
+[v i2_scheduler scheduler `(ui  1 e 2 0 ]
+"22
+[v _rr_scheduler rr_scheduler `(ui  1 e 2 0 ]
+[v i2_rr_scheduler rr_scheduler `(ui  1 e 2 0 ]
+"11 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\tasks.c
+[v _config_tasks config_tasks `(v  1 e 1 0 ]
+"19
+[v _task_1 task_1 `(v  1 e 1 0 ]
+"27
+[v _task_2 task_2 `(v  1 e 1 0 ]
+"35
+[v _task_3 task_3 `(v  1 e 1 0 ]
+"15 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\timer.c
+[v _setup_timer_0 setup_timer_0 `(v  1 e 1 0 ]
+"26
+[v _controle_delay controle_delay `(ui  1 e 2 0 ]
+"44
+[v _IRQ_Timer0 IRQ_Timer0 `IIH(v  1 e 1 0 ]
+"14 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X/dispatcher.h
+[v _index index `i  1 e 2 0 ]
+[s S217 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"669 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[s S226 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S235 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S240 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S243 . 1 `S217 1 . 1 0 `S226 1 . 1 0 `S235 1 . 1 0 `S240 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES243  1 e 1 @3971 ]
+[s S333 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2175
+[u S351 . 1 `S333 1 . 1 0 `S217 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES351  1 e 1 @3989 ]
+[s S172 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6191
+[s S179 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S186 . 1 `S172 1 . 1 0 `S179 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES186  1 e 1 @4053 ]
+"6258
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6272
+[v _STATUS STATUS `VEuc  1 e 1 @4056 ]
+"6399
+[v _BSR BSR `VEuc  1 e 1 @4064 ]
+"6462
+[v _WREG WREG `VEuc  1 e 1 @4072 ]
+[s S112 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6724
+[s S121 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S130 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S134 . 1 `S112 1 . 1 0 `S121 1 . 1 0 `S130 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES134  1 e 1 @4082 ]
+"6904
+[v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
+"6977
+[v _TOS TOS `VEum  1 e 3 @4093 ]
+[s S31 task_stack 34 `[32]uc 1 stack 32 0 `ui 1 size 2 32 ]
+"15 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\main.c
+[s S34 tcb 46 `ui 1 task_id 2 0 `E2560 1 task_state 1 2 `ui 1 task_prior 2 3 `*.37(v 1 task_func 2 5 `S31 1 task_stack 34 7 `uc 1 bsr_reg 1 41 `uc 1 w_reg 1 42 `uc 1 status_reg 1 43 `ui 1 delay 2 44 ]
+[s S44 fila_aptos 234 `[5]S34 1 ready_queue 230 0 `ui 1 ready_queue_size 2 230 `ui 1 task_running 2 232 ]
+[v _f_aptos f_aptos `S44  1 e 234 0 ]
+"13 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\timer.c
+[v _quantum quantum `i  1 e 2 0 ]
+"17 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"35
+} 0
+"49 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\kernel.c
+[v _os_start os_start `(v  1 e 1 0 ]
+{
+"58
+} 0
+"60
+[v _os_config os_config `(v  1 e 1 0 ]
+{
+"77
+} 0
+"34
+[v _task_create task_create `(v  1 e 1 0 ]
+{
+[s S31 task_stack 34 `[32]uc 1 stack 32 0 `ui 1 size 2 32 ]
+"36
+[s S34 tcb 46 `ui 1 task_id 2 0 `E2560 1 task_state 1 2 `ui 1 task_prior 2 3 `*.37(v 1 task_func 2 5 `S31 1 task_stack 34 7 `uc 1 bsr_reg 1 41 `uc 1 w_reg 1 42 `uc 1 status_reg 1 43 `ui 1 delay 2 44 ]
+[v task_create@new_task new_task `S34  1 a 46 0 ]
+"34
+[v task_create@prior prior `ui  1 p 2 110 ]
+[v task_create@func func `*.37(v  1 p 2 112 ]
+"47
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 108 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 104 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 106 ]
+"53
+} 0
+"15 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\timer.c
+[v _setup_timer_0 setup_timer_0 `(v  1 e 1 0 ]
+{
+"24
+} 0
+"11 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\tasks.c
+[v _config_tasks config_tasks `(v  1 e 1 0 ]
+{
+"17
+} 0
+"79 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\kernel.c
+[v _task_idle task_idle `(v  1 e 1 0 ]
+{
+"85
+} 0
+"19 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\tasks.c
+[v _task_1 task_1 `(v  1 e 1 0 ]
+{
+"25
+} 0
+"18 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\kernel.c
+[v _task_delay task_delay `(v  1 e 1 0 ]
+{
+[v task_delay@ms ms `ui  1 p 2 98 ]
+"32
+} 0
+"12 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\scheduler.c
+[v _scheduler scheduler `(ui  1 e 2 0 ]
+{
+"19
+} 0
+"22
+[v _rr_scheduler rr_scheduler `(ui  1 e 2 0 ]
+{
+"24
+[v rr_scheduler@next_task next_task `ui  1 a 2 94 ]
+"33
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i1___wmul@product product `ui  1 a 2 90 ]
+"15
+[v i1___wmul@multiplier multiplier `ui  1 p 2 86 ]
+[v i1___wmul@multiplicand multiplicand `ui  1 p 2 88 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 90 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 86 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 88 ]
+"25
+} 0
+"27 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\tasks.c
+[v _task_2 task_2 `(v  1 e 1 0 ]
+{
+"33
+} 0
+"35
+[v _task_3 task_3 `(v  1 e 1 0 ]
+{
+"41
+} 0
+"44 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\timer.c
+[v _IRQ_Timer0 IRQ_Timer0 `IIH(v  1 e 1 0 ]
+{
+"72
+} 0
+"12 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\scheduler.c
+[v i2_scheduler scheduler `(ui  1 e 2 0 ]
+{
+"19
+} 0
+"22
+[v i2_rr_scheduler rr_scheduler `(ui  1 e 2 0 ]
+{
+"24
+[v i2rr_scheduler@next_task next_task `ui  1 a 2 8 ]
+"33
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\lwmod.c
+[v i2___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v i2___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v i2___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v i2___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"26 D:\nicol\OneDrive\햞ea de Trabalho\SO Embarcados\EAD\Atividades\Atividade_30_09\AT_30_09.X\timer.c
+[v _controle_delay controle_delay `(ui  1 e 2 0 ]
+{
+"28
+[v controle_delay@i i `i  1 a 2 12 ]
+[v controle_delay@flag flag `i  1 a 2 10 ]
+"42
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i2___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i2___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i2___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
